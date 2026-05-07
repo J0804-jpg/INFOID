@@ -26,7 +26,7 @@ header ul {
     width: 60%;
     margin-left: 20%;
     border-radius: 5px;
-    background-color: lightblue;
+    background-color: greenyellow;
     font-size: 30px;
 }
 
@@ -34,16 +34,19 @@ ol a {
     text-decoration: none;
 }
 
-nav ol li {
-    display: inline;
-    margin: 10px;
-    padding-bottom: 10px;
-    color: aliceblue;
+
+
+
+nav ol{
+    margin-top: 30px;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    align-content: space-between;
+    font-size:25px ;
 }
 
-nav {
-    margin-top: 30px;
-}
 
 nav ol li:hover {
     background-color: lightgreen;
@@ -53,7 +56,7 @@ nav ol li:hover {
     border-radius: 40px;
     font-weight: 700;
     margin-right: 10px;
-    margin-top: 20px;
+    margin-top: 10px;
     padding-top: 10px;
     padding-right: 2px;
 }
@@ -87,7 +90,7 @@ nav ol li:hover {
 
 #programa {
     font-size: 20px;
-    padding-right: 80%;
+    text-align: center;
 }
 
 #palestrantes {
@@ -103,14 +106,17 @@ nav ol li:hover {
 }
 
 #inscricao {
+    display: flex;
+    flex-direction: column;
+    align-items:center ;
+    justify-items:center ;
     font-size: 30px;
-    margin-top: 30px;
-    text-align: center;
-    font-style: unset;
 }
+#polga{
+    display: flex;
+    align-content: center;
+    
 
-#polga {
-    margin-left: 40%;
 }
 
 footer {
@@ -133,5 +139,85 @@ footer {
     height: 150px;
 }
 
-article{   display: inline-block;
-    width: 45%; /* Define a largura para caberem juntas */}
+article {   display: flex;
+   justify-items: center;
+   align-content: center;
+flex-direction: row;
+margin-top: 60px;
+}
+
+    #programa ul li {
+        margin-bottom: 70px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-size: 40px;
+        list-style-type: none;
+    }
+    #programa h2{
+        font-size: 70px;
+    }
+    #programa ul{
+        display: flex;
+        flex-direction: row;
+       
+    }
+    #texto3 h3{
+display: flex;
+justify-content: space-around;
+    }
+    img{
+        width: 300px;
+height: 200px;
+
+    }
+   header img {
+width: 100px;
+height: 100px;
+   }
+   header div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+   }
+   header img{
+    display: flex;
+    justify-content: start;
+    align-items: end;
+   }
+ form{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+
+ }
+#botao{
+    width: 100px;
+}
+button{
+    width: 400px;
+    height: 80px;
+    margin-left: 10px;
+    background-color: gray;
+    font-size: 20px;
+}
+input{
+    width: 600px;
+
+}
+#pol{
+    width: 500px;
+}
+#palestrantes h2{
+    font-size: 50px;
+}
+.grid {
+    display: flex;
+    flex-direction: row;
+
+}
+article img{
+    border-radius: 100%;
+}
+#texto3 p {
+    display: flex;
+    align-content: end;
+}
