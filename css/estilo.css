@@ -11,7 +11,7 @@ header {
     padding-bottom: 10px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
-body{background-color: lightgreen;}
+body{background-color: white;}
 
 header ul {
     padding: auto;
@@ -26,7 +26,7 @@ header ul {
     width: 60%;
     margin-left: 5%;
     border-radius: 5px;
-    background-color: greenyellow;
+    background: linear-gradient(to right,red,green);
     font-size: 30px;
     width: auto;
     margin-right: 5%;
@@ -34,7 +34,7 @@ header ul {
 }
 
 ol a {
-    text-decoration: none;
+   color: white;
 }
 
 
@@ -51,28 +51,12 @@ nav ol{
 }
 
 
-nav ol li:hover {
-    background-color: lightgreen;
-    font-size: 20px;
-    border-bottom-style: solid;
-    border-top-color: black;
-    border-radius: 40px;
-    font-weight: 700;
-    margin-right: 10px;
-    margin-top: 10px;
-    padding-top: 10px;
-    padding-right: 2px;
-}
-
 #texto2 {
     text-align: center;
     margin-top: 20px;
     width: 90%;
     margin-left: 5%;
-    border-style: solid;
-    border-color: black;
     border-radius: 5px;
-    background-color: beige;
 }
 
 #texto2 ul li {
@@ -86,14 +70,13 @@ nav ol li:hover {
     padding-left: 20px;
 }
 
-#sobre h2 {
-    padding-right: 80%;
-    margin-bottom: 10px;
-}
+
 
 #programa {
     font-size: 20px;
     text-align: center;
+    margin-top: 40px;
+    
 }
 
 
@@ -120,9 +103,11 @@ footer {
     font-size: 25px;
     font-style: italic;
 }
+#info h1{
+    color: white;
+}
 
 #info a {
-    text-decoration: none;
     color: white;
     font-size: 30px;
 }
@@ -133,7 +118,7 @@ footer {
 }
 
 #palestrantes{
-    background-color: lightgreen; 
+    background-color: white; 
    border: 1px solid #cccccc;
     border-radius: 6px;
     padding: 24px 28px;
@@ -143,24 +128,22 @@ footer {
     font-size: 1.1rem;
     color: #222;
     margin-bottom: 10px;
-    border-bottom: 2px solid #2e7d2e;
     padding-bottom: 6px;
     border-radius: 100%;
 }
 
     #programa ul li {
-        margin-bottom: 70px;
         font-family: Georgia, 'Times New Roman', Times, serif;
-        font-size: 40px;
+        font-size: 20px;
         list-style-type: none;
+
     }
     #programa h2{
-        font-size: 70px;
+        font-size: 40px;
     }
     #programa ul{
         display: flex;
-        flex-direction: row;
-       
+       flex-direction: column;
     }
     #texto3 h3{
 display: flex;
@@ -218,7 +201,6 @@ input{
     min-width: 160px;
     text-align: center;
     padding: 16px 10px;
-    border-left: 3px solid #2e7d2e;
     
 
 }
@@ -255,4 +237,6 @@ img{
     text-align: center;
     
 }
-
+#pales h2{
+    font-size: 50px;
+}
