@@ -24,10 +24,13 @@ header ul {
     text-align: center;
     margin-top: 20px;
     width: 60%;
-    margin-left: 20%;
+    margin-left: 5%;
     border-radius: 5px;
     background-color: greenyellow;
     font-size: 30px;
+    width: auto;
+    margin-right: 5%;
+    justify-content: space-evenly;
 }
 
 ol a {
@@ -93,17 +96,7 @@ nav ol li:hover {
     text-align: center;
 }
 
-#palestrantes {
-    font-size: 20px;
-    text-align: center;
-    margin-top: 40px;
-    border-style: groove;
-    border-color: black;
-    border-radius: 5px;
-    width: 80%;
-    margin-left: 10%;
-    background-color: lightgoldenrodyellow;
-}
+
 
 #inscricao {
     display: flex;
@@ -139,11 +132,20 @@ footer {
     height: 150px;
 }
 
-article {   display: flex;
-   justify-items: center;
-   align-content: center;
-flex-direction: row;
-margin-top: 60px;
+#palestrantes{
+    background-color: lightgreen; 
+   border: 1px solid #cccccc;
+    border-radius: 6px;
+    padding: 24px 28px;
+    margin-bottom: 10px;
+}
+#palestrantes h2{
+    font-size: 1.1rem;
+    color: #222;
+    margin-bottom: 10px;
+    border-bottom: 2px solid #2e7d2e;
+    padding-bottom: 6px;
+    border-radius: 100%;
 }
 
     #programa ul li {
@@ -206,18 +208,51 @@ input{
 #pol{
     width: 500px;
 }
-#palestrantes h2{
-    font-size: 50px;
-}
 .grid {
     display: flex;
-    flex-direction: row;
+    gap: 16px;
+    flex-wrap: wrap;
+}
+.grid article{
+    flex: 1;
+    min-width: 160px;
+    text-align: center;
+    padding: 16px 10px;
+    border-left: 3px solid #2e7d2e;
+    
 
 }
-article img{
-    border-radius: 100%;
+.grid article h3{
+    font-size: 0.9rem;
+    font-weight: bold;
+    margin-bottom: 4px;
+    color: #222;
+
 }
+.grid article p{
+    font-size: 0.8rem;
+    color: #555;
+    line-height: 1.4;
+    justify-content: center;
+}
+
 #texto3 p {
     display: flex;
     align-content: end;
+    margin-left: auto;
 }
+
+img{
+    border-radius: 100%;
+}
+#palestran{
+    background-color: white;
+    margin-left: 5%;
+    margin-right: 5% ;
+    border-radius: 12px;
+}
+#pales{
+    text-align: center;
+    
+}
+
