@@ -18,7 +18,6 @@ header ul {
 }
 
 #topo {
-    border-width: 2px;
     border-style: solid;
     border-color: black;
     text-align: center;
@@ -44,9 +43,7 @@ nav ol{
     margin-top: 30px;
     list-style-type: none;
     display: flex;
-    justify-content: space-around;
-    flex-direction: row;
-    align-content: space-between;
+    justify-content: space-evenly;
     font-size:25px ;
 }
 
@@ -56,22 +53,9 @@ nav ol{
     margin-top: 20px;
     width: 90%;
     margin-left: 5%;
-    border-radius: 5px;
-}
-
-#texto2 ul li {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-
-    margin-left: 40px;
-}
-
-#sobre {
-    font-size: 20px;
+     font-size: 20px;
     padding-left: 20px;
 }
-
-
-
 #programa {
     font-size: 20px;
     text-align: center;
@@ -88,17 +72,15 @@ nav ol{
     justify-items:center ;
     font-size: 30px;
 }
+
 #polga{
     display: flex;
     align-content: center;
-    
-
 }
 
 footer {
     text-align: center;
     background-color: green;
-    font-size: 20px;
     margin-top: 20px;
     font-size: 25px;
     font-style: italic;
@@ -109,32 +91,21 @@ footer {
 
 #info a {
     color: white;
-    font-size: 30px;
+    font-size: 40px;
 }
 
-#img1 {
-    width: 150px;
-    height: 150px;
-}
-
-#palestrantes{
-    background-color: white; 
+#palestrantes{ 
    border: 1px solid #cccccc;
     border-radius: 6px;
-    padding: 24px 28px;
+    padding: 24px;
     margin-bottom: 10px;
 }
 #palestrantes h2{
-    font-size: 1.1rem;
-    color: #222;
     margin-bottom: 10px;
     padding-bottom: 6px;
-    border-radius: 100%;
 }
 
     #programa ul li {
-        font-family: Georgia, 'Times New Roman', Times, serif;
-        font-size: 20px;
         list-style-type: none;
 
     }
@@ -145,10 +116,6 @@ footer {
         display: flex;
        flex-direction: column;
     }
-    #texto3 h3{
-display: flex;
-justify-content: space-around;
-    }
     img{
         width: 300px;
 height: 200px;
@@ -158,16 +125,7 @@ height: 200px;
 width: 100px;
 height: 100px;
    }
-   header div{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-   }
-   header img{
-    display: flex;
-    justify-content: start;
-    align-items: end;
-   }
+
  form{
     display: flex;
     justify-content: center;
@@ -178,60 +136,35 @@ height: 100px;
     width: 100px;
 }
 button{
-    width: 400px;
     height: 80px;
     margin-left: 10px;
     background-color: gray;
     font-size: 20px;
 }
-input{
-    width: 600px;
 
-}
 #pol{
     width: 500px;
 }
 .grid {
     display: flex;
     gap: 16px;
-    flex-wrap: wrap;
 }
 .grid article{
-    flex: 1;
     min-width: 160px;
-    text-align: center;
     padding: 16px 10px;
-    
-
 }
-.grid article h3{
-    font-size: 0.9rem;
-    font-weight: bold;
-    margin-bottom: 4px;
-    color: #222;
 
-}
 .grid article p{
-    font-size: 0.8rem;
+    font-size: 10px
     color: #555;
-    line-height: 1.4;
-    justify-content: center;
-}
-
-#texto3 p {
-    display: flex;
-    align-content: end;
-    margin-left: auto;
+  line-height: 1.4 ;
 }
 
 img{
     border-radius: 100%;
 }
 #palestran{
-    background-color: white;
-    margin-left: 5%;
     margin-right: 5% ;
-    border-radius: 12px;
 }
 #pales{
     text-align: center;
